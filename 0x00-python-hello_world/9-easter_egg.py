@@ -1,1 +1,2 @@
-[A[A
+#!/usr/bin/python3
+import this
