@@ -1,1 +1,2 @@
-cat > 102-magic_calculation.py
+#!/bin/bash
+python3 -m compileall -b $PYFILE
