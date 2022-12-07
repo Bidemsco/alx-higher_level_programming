@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-
-def number_keys(a_dictionary):
-
+def print_sorted_dictionary(a_dictionary):
     """
-
-    Return the number of keys in a dictionary
-
+    Print a dictionary ordered by key
+    sorted in alphabetical order
     """
-
-    return len(a_dictionary)
+    for key in sorted(a_dictionary.keys()):
+        print("{}: {}".format(key, a_dictionary[key]))
